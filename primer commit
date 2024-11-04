@@ -1,3 +1,67 @@
 Continua con la Historia anterior
 cosas que ojo no vio ni oido ollo son las cosas que Dios ha preparado a los que le aman 
-el dia de hoy deseo ser el mejor en programacion y destacar  y debo tener disiplina claaaaaaarooooooo HOLAAAAAA
+el dia de hoy deseo ser el mejor en programacion y destacar  y debo tener disiplina claaaaaaarooooooo HOLAAAAAA 
+
+
+
+- Aquí tienes una lista de los comandos básicos y más útiles en Git:
+ Esto es solo git.
+### 1. **Configuración Inicial**
+   - `git config --global user.name "Tu Nombre"`: Configura tu nombre de usuario global.
+   - `git config --global user.email "tuemail@ejemplo.com"`: Configura tu correo electrónico global.
+   - `git config --list`: Muestra la configuración de Git.
+
+### 2. **Iniciar un Repositorio**
+   - `git init`: Inicia un nuevo repositorio de Git en el directorio actual.
+   - `git clone <url>`: Clona un repositorio remoto al directorio actual.
+
+### 3. **Comandos de Estado y Seguimiento**
+   - `git status`: Muestra el estado de los archivos en el repositorio.
+   - `git add <archivo>`: Añade un archivo específico al área de preparación (stage).
+   - `git add .`: Añade todos los archivos modificados al área de preparación.
+   - `git commit -m "mensaje"`: Guarda los cambios en el historial con un mensaje.
+   - `git commit -a -m "mensaje"`: Realiza un commit de todos los cambios rastreados sin usar `git add`.
+
+### 4. **Historial y Comparación**
+   - `git log`: Muestra el historial de commits.
+   - `git log --oneline`: Muestra el historial de commits en una sola línea por commit.
+   - `git diff`: Muestra las diferencias entre los cambios no confirmados y la última versión confirmada.
+   - `git diff <rama1> <rama2>`: Compara las diferencias entre dos ramas.
+
+### 5. **Ramas (Branches)**
+   - `git branch`: Muestra todas las ramas del repositorio.
+   - `git branch <nombre>`: Crea una nueva rama.
+   - `git checkout <nombre>`: Cambia a otra rama.
+   - `git checkout -b <nombre>`: Crea y cambia a una nueva rama.
+   - `git branch -d <nombre>`: Elimina una rama.
+
+### 6. **Fusión de Ramas (Merge)**
+   - `git merge <rama>`: Fusiona la rama especificada en la rama actual.
+   - `git merge --no-ff <rama>`: Fusiona sin fast-forward, conservando el historial de la rama fusionada.
+
+### 7. **Revertir Cambios**
+   - `git reset <archivo>`: Quita un archivo del área de preparación.
+   - `git reset --hard`: Elimina todos los cambios locales (no recomendada si tienes cambios importantes).
+   - `git revert <commit>`: Crea un nuevo commit que revierte los cambios del commit especificado.
+
+### 8. **Repositorios Remotos**
+   - `git remote add <nombre> <url>`: Añade un repositorio remoto.
+   - `git remote -v`: Muestra todos los repositorios remotos.
+   - `git push <remoto> <rama>`: Sube los cambios de una rama al repositorio remoto.
+   - `git pull <remoto> <rama>`: Trae y fusiona los cambios del repositorio remoto.
+
+### 9. **Etiquetas (Tags)**
+   - `git tag <nombre>`: Crea una etiqueta (tag) en el commit actual.
+   - `git tag -a <nombre> -m "mensaje"`: Crea una etiqueta anotada con un mensaje.
+
+### 10. **Stash (Almacenamiento Temporal)**
+   - `git stash`: Guarda los cambios temporales sin confirmarlos.
+   - `git stash apply`: Restaura los cambios almacenados.
+   - `git stash pop`: Restaura y elimina el último stash.
+
+### 11. **Otros Comandos Útiles**
+   - `git fetch`: Descarga los cambios del repositorio remoto sin fusionarlos.
+   - `git rebase <rama>`: Reaplica los commits de una rama en otra base.
+   - `git show`: Muestra detalles de un commit específico.
+
+¿Te interesa profundizar en alguno de estos comandos?
